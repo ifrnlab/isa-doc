@@ -9,35 +9,35 @@ R
     reboot
         Halt, power.
         
-        Veja mais detalhes em :ref:`ger-sistema`
+        Veja mais detalhes em :ref:`ger-sistema`.
         
 
     rm
         apaga arquivos e diretórios.
         
-        Veja mais detalhes em :ref:`arquivos-diretorios`
+        Veja mais detalhes em :ref:`arquivos-diretorios`.
         
 
     rmdir
         remove diretórios vazios.
         
-        Veja mais detalhes em :ref:`filesystem`
+        Veja mais detalhes em :ref:`filesystem`.
         
 
     rmmod
         Simple program to remove a module from the Linux Kernel.
         
-        Veja mais detalhes em :ref:`modulos`
+        Veja mais detalhes em :ref:`modulos`.
         
 
     rpm
         RPM Package Manager.
         
-        Veja mais detalhes em :ref:`pacotes`
+        Veja mais detalhes em :ref:`pacotes` e :ref:`rpm`.
         
 
     runlevel
         Print previous and current SysV runlevel.
         
-        Veja mais detalhes em :ref:`runlevel`
+        Veja mais detalhes em :ref:`runlevel`.
         

@@ -13,7 +13,8 @@ A
         
 
     apt
-        get (8).
+        it provides a high-level commandline
+        interface for the package management system.
         
-        Veja mais detalhes em :ref:`pacotes`
+        Veja mais detalhes em :ref:`pacotes` e :ref:`apt`.
         

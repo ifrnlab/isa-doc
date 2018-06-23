@@ -9,5 +9,5 @@ Y
     yum
         Yellowdog Updater Modified.
         
-        Veja mais detalhes em :ref:`pacotes`
+        Veja mais detalhes em :ref:`pacotes` e :ref:`yum`.
         
