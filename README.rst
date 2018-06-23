@@ -17,3 +17,5 @@ Documentação para Introdução a Sistemas Abertos
 14. `Comandos para gerência de Usuários <14-usuarios.rst>`_
 15. `Comandos para gerência de Sistema <15-ger-sistema.rst>`_
 16. `Módulos do Kernel <16-modulos.rst>`_
+
+`Glossário <glossario/>`_
