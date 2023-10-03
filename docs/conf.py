@@ -1,29 +1,28 @@
 # -*- coding: utf-8 -*-
-from recommonmark.parser import CommonMarkParser
 
-extensions = ['sphinx.ext.todo',
-    'sphinx.ext.imgmath',
-    'sphinx.ext.githubpages']
+
+extensions = [
+    'myst_parser',
+]
 
 templates_path = ['_templates']
 # https://stackoverflow.com/questions/23211695/modifying-content-width-of-the-sphinx-theme-read-the-docs
 
-source_suffix = ['.rst', '.md']
-source_parsers = {'.md': CommonMarkParser}
 
 master_doc = 'index'
 
 # General information about the project.
-project = u'Introdução a Sistemas Abertos'
-copyright = u'2018, AUTOR'
-author = u'AUTOR'
-version = u'2018.1'
-release = u'2018.1'
+project = 'Introdução a Sistemas Abertos'
+copyright = '2023.2, AUTOR'
+author = 'AUTOR'
+version = '2023.2'
+release = '2023.2'
 language = 'pt_BR'
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 pygments_style = 'sphinx'
 todo_include_todos = True
 html_theme = 'sphinx_rtd_theme'
+html_title = html_short_title = project
 html_theme_options = {
         }
 html_static_path = ['_static']
@@ -36,7 +35,7 @@ html_sidebars = {
     ]
 }
 
-htmlhelp_basename = 'IntroduoaSistemasAbertosdoc'
+htmlhelp_basename = 'isa-doc'
 
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
@@ -60,8 +59,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'IntroduoaSistemasAbertos.tex', u'Introdução a Sistemas Abertos Documentation',
-     u'AUTOR', 'manual'),
+    (master_doc, 'isa-doc.tex', 'Introdução a Sistemas Abertos',
+     'AUTOR', 'manual'),
 ]
 
 
@@ -70,7 +69,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'introduoasistemasabertos', u'Introdução a Sistemas Abertos Documentation',
+    (master_doc, 'isa-docs', 'Introdução a Sistemas Abertos',
      [author], 1)
 ]
 
@@ -81,7 +80,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'IntroduoaSistemasAbertos', u'Introdução a Sistemas Abertos Documentation',
+    (master_doc, 'IntroduoaSistemasAbertos', 'Introdução a Sistemas Abertos Documentation',
      author, 'IntroduoaSistemasAbertos', 'One line description of project.',
      'Miscellaneous'),
 ]
