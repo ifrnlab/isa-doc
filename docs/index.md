@@ -1,17 +1,33 @@
-# Welcome to MkDocs
+% Introdução a Sistemas Abertos documentation master file, created by
+% sphinx-quickstart on Mon Jun  4 00:23:36 2018.
+% You can adapt this file completely to your liking, but it should at least
+% contain the root `toctree` directive.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# Introdução a Sistemas Abertos
 
-## Commands
+```{toctree}
+:maxdepth: 1
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+01-historico
+02-distros
+03-o-sistema
+04-instalacao
+05-discos-particoes
+06-memvirtual
+07-sistema-arquivos
+08-niveis-operacoes
+09-id-usuarios-grupos-processos
+10-boot
+11-pacotes
+12-shell
+13-arquivos-diretorios
+14-usuarios
+15-ger-sistema
+16-modulos
+glossario/index
+```
 
-## Project layout
+# Índices e tabelas
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- {ref}`genindex`
+- {ref}`search`
